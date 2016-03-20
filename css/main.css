@@ -11,6 +11,11 @@ a {
 	padding: 0 5%;
 	background: #ca9b0e; 
 }
+
+body{
+	max-width: 80%;
+}
+
 img {
 	max-width: 100%;
 }
@@ -71,20 +76,6 @@ h2{
 	color: #7d5d00;
 	line-height: 0.5em;
 }
-footer {
-	font-size: 0.75em;
-	text-align: center;
-	clear: both;
-	padding-top: 50px;
-	color: #2e8c8c;
-	background: #FDD55E;
-}
-
-.social-icon{
-	width: 30px;
-	height: 30px;
-	margin: 0 5px;
-}
 
 /***NAVIGATION**/
 
@@ -106,6 +97,7 @@ nav li{
 nav{
 	font-family: 'josefin sans';
 	background: #ebbc31;
+	text-align: center;
 }
 
 nav a, nav a:visited{
@@ -120,6 +112,23 @@ nav a.selected{
 nav a:hover{
 	color: #7d755c;
 }
+
+
+footer {
+	font-size: 0.75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	color: #2e8c8c;
+	background: #FDD55E;
+}
+
+.social-icon{
+	width: 30px;
+	height: 30px;
+	margin: 0 5px;
+}
+
 
 /******ABOUT****/
 
@@ -140,14 +149,14 @@ nav a:hover{
 	font-size: 0.9em;
 }
 
-.contact-info li.phone a{
-	background-image: url('../img/phone.png')
+.contact-info li.phone a {
+	background-image: url('../img/phone.png');
 }
-.contact-info li.mail a{
-	background-image: url('../img/mail.png')
+.contact-info li.mail a {
+	background-image: url('../img/mail.png');
 }
-.contact-info li.twitter a{
-	background-image: url('../img/twitter.png')
+.contact-info li.facebook a {
+	background-image: url('../img/facebook.png');
 }
 
 .contact-info a{
