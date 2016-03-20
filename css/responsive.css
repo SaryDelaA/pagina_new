@@ -1,4 +1,5 @@
-@media screen and (min-width: 480 px)
+
+/*@media screen and (min-width: 480 px)
 {
 	body{
 		max-width: 90%;
@@ -11,5 +12,41 @@
 	body{
 		max-width: 90%;
 		background: darkgreen ;
+	}
+}
+
+*/
+
+@media screen and (min-width: 480px)
+{
+	#primary {
+		width: 50%;
+		float: left;
+	}
+	#secondary {
+		width: 40%;
+		float: right;
+	}
+	#galeria li {
+		width: 28.33333%;
+	}
+
+	#galeria li:nth-child(3n+1)
+	{
+		clear:left;
+	}
+
+	.profile-photo{
+		float: left;
+		margin: 0 5% 120% 0;
+	}
+
+	nav{
+		background: none;
+		float: right;
+		font-size: 1.125em;
+		margin-right: 10%;
+		text-align: right;
+		width: 45%;
 	}
 }
